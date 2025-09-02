@@ -2,7 +2,7 @@
 
 CSV Validator is a lightweight and efficient tool for validating CSV files against defined rules and formats.
 Built with Java, it ensures that datasets used in analytics, ML pipelines, and business applications are clean, consistent, and error-free before processing.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Features
 
 ✔️ Schema Validation – Check if CSV files follow the expected column names and order.
@@ -11,7 +11,7 @@ Built with Java, it ensures that datasets used in analytics, ML pipelines, and b
 ✔️ Range & Pattern Matching – Validate constraints like ranges, regex patterns, and allowed values.
 ✔️ Error Reporting – Generate detailed logs for invalid rows and columns.
 ✔️ Lightweight Integration – Can be integrated into Java-based ETL, ML, or backend systems.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 🧠 Tech Stack
 
 Language: Java
@@ -20,7 +20,7 @@ Build Tool: Maven / Gradle (if applicable)
 
 IDE: IntelliJ IDEA (Project configs in .idea/)
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 🔧 Setup & Installation
 
 1. Clone the Repository
@@ -44,7 +44,7 @@ If running directly:
 javac -d out src/**/*.java
 java -cp out com.validator.Main
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 🧪 Usage
 
 Place your CSV file in the data/ folder (or provide a path).
@@ -64,7 +64,7 @@ Define validation rules in config.json (example below):
 
 Run the program – it will print results in the console and generate a report.txt.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 📁 Project Structure
 csv-validator/
 ├── src/                  # Java source code
@@ -74,13 +74,13 @@ csv-validator/
 ├── out/                  # Compiled output
 └── README.md             # Documentation
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 📌 Known Issues
 
 ⚠️ Large CSV files (>1M rows) may require memory optimization.
 ⚠️ Regex-heavy validations can slow performance.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -95,4 +95,4 @@ Push to your branch (git push origin feature-name)
 
 Open a Pull Request
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
